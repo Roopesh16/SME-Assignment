@@ -7,7 +7,6 @@
 namespace Player
 {
     class PlayerView;
-    class PlayerModel;
 
     enum class PlayerState;
 
