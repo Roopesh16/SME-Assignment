@@ -3,10 +3,14 @@
 #include "../Collision/ICollider.h"
 #include "../../header/Powerup/PowerupConfig.h"
 #include "../../header/Player/PlayerModel.h"
-#include "../../header/Player/PlayerView.h"
 
 namespace Player
 {
+    class PlayerView;
+    class PlayerModel;
+
+    enum class PlayerState;
+
     class PlayerController : public Collision::ICollider
     {
     private:
