@@ -30,13 +30,13 @@ namespace Global
         Collision::CollisionService* collision_service;
         Particle::ParticleService* particle_service;
 
-        ServiceLocator();
-        ~ServiceLocator();
 
         void createServices();
         void clearAllServices();
 
     public:
+        ServiceLocator();
+        ~ServiceLocator();
         static ServiceLocator* getInstance();
 
         void initialize();
