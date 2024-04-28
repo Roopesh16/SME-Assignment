@@ -1,4 +1,5 @@
 #include "../../header/Player/PlayerView.h"
+#include "../../header/UI/UIElement/ImageView.h"
 #include "../../header/Global/ServiceLocator.h"
 #include "../../header/Global/Config.h"
 #include "../../header/Graphics/GraphicService.h"
