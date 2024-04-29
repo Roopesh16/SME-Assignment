@@ -53,6 +53,7 @@
     <ClCompile Include="source\UI\UIElement\TextView.cpp" />
     <ClCompile Include="source\UI\UIElement\UIView.cpp" />
     <ClCompile Include="source\UI\SplashScreen\SplashScreenUIController.cpp" />
+    <ClCompile Include="source\Bullets\BulletController.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header\Entity\EntityConfig.h" />
@@ -113,5 +114,14 @@
     <ClInclude Include="header\UI\UIElement\TextView.h" />
     <ClInclude Include="header\UI\UIElement\UIView.h" />
     <ClInclude Include="header\UI\SplashScreen\SplashScreenUIController.h" />
+    <ClInclude Include="header\Bullet\BulletController.h" />
+    <ClInclude Include="header\Bullet\IBullet.h" />
+    <ClInclude Include="header\Bullet\BulletView.h" />
+    <ClInclude Include="header\Bullet\BulletModel.h" />
+    <ClInclude Include="header\Bullet\BulletConfig.h" />
+    <ClInclude Include="header\Bullet\Controllers\SimpleController.h" />
+    <ClInclude Include="header\Bullet\Controllers\FrostBeamController.h" />
+    <ClInclude Include="header\Bullet\Controllers\TorpedoController.h" />
+    <ClInclude Include="header\Bullet\Controllers\LockedMissileController.h" />
   </ItemGroup>
 </Project>

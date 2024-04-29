@@ -133,6 +133,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="source\Bullets\BulletController.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="source\Collision\CollisionService.cpp" />
     <ClCompile Include="source\Collision\ICollider.cpp" />
@@ -187,6 +188,15 @@
     <ClCompile Include="source\UI\SplashScreen\SplashScreenUIController.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="header\Bullet\BulletConfig.h" />
+    <ClInclude Include="header\Bullet\BulletController.h" />
+    <ClInclude Include="header\Bullet\BulletModel.h" />
+    <ClInclude Include="header\Bullet\BulletView.h" />
+    <ClInclude Include="header\Bullet\Controllers\FrostBeamController.h" />
+    <ClInclude Include="header\Bullet\Controllers\LockedMissileController.h" />
+    <ClInclude Include="header\Bullet\Controllers\TorpedoController.h" />
+    <ClInclude Include="header\Bullet\IBullet.h" />
+    <ClInclude Include="header\Bullet\Controllers\SimpleController.h" />
     <ClInclude Include="header\Entity\EntityConfig.h" />
     <ClInclude Include="header\Collision\CollisionService.h" />
     <ClInclude Include="header\Collision\ICollider.h" />
